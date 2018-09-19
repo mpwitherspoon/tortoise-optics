@@ -77,6 +77,62 @@ h1 {
   line-height: 1.2;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: 22rem;
+    padding-top: 0rem;
+  }
+
+  nav.content_container {
+    max-width: 100%;
+  }
+
+  .main_banner {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: .75rem 4rem;
+  }
+
+  .main_banner h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 17rem;
+    padding-top: 0rem;
+  }
+
+  nav.content_container {
+    max-width: 100%;
+  }
+
+  .nav_menu ul {
+    display: none;
+  }
+
+  .nav_menu ul.mobile_menu {
+    display: block;
+  }
+
+  header div span {
+    display: none;
+  }
+
+  .main_banner {
+    width: 100%;
+    margin: 9rem auto 0 auto;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .main_banner h1 {
+    font-size: 1rem;
+  }
+
+}
+
 /* Mid-Section */
 
 .mid_section {
@@ -102,6 +158,11 @@ h1 {
 
 .services img.paper_icon {
   width: 3.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  
+
 }
 
 /* Info */
