@@ -76,3 +76,50 @@ h1 {
   font-weight: bold;
   line-height: 1.2;
 }
+
+/* Mid-Section */
+
+.mid_section {
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  height: 8rem;
+  width: 5rem;
+}
+
+.services img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.services img.paper_icon {
+  width: 3.5rem;
+}
+
+/* Info */
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  max-width: 10rem;
+  padding: .5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
