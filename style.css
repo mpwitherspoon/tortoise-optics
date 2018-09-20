@@ -77,6 +77,10 @@ h1 {
   line-height: 1.2;
 }
 
+.mobile_menu {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   header {
     height: 22rem;
@@ -101,7 +105,7 @@ h1 {
 @media only screen and (max-width: 480px) {
   header {
     height: 17rem;
-    padding-top: 0rem;
+    background-position: 20%;
   }
 
   nav.content_container {
@@ -122,8 +126,8 @@ h1 {
 
   .main_banner {
     width: 100%;
-    margin: 9rem auto 0 auto;
-    padding: 1rem 0;
+    margin: 6rem auto 0 auto;
+    padding: 0 1rem;
     text-align: center;
   }
 
@@ -161,9 +165,21 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) {
-  
-
+  .mid_section {
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    justify-content: flex-start;
+  }
 }
+
+@media only screen and (max-width: 480px) {
+    .services {
+      height: auto;
+      margin: .77rem;
+      font-size: .77rem;
+    }
+  }
 
 /* Info */
 
@@ -189,6 +205,28 @@ h1 {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 480px) {
+  .info {
+    width: 100%;
+  }
+
+  .deets {
+    flex-direction: column;
+  }
+
+  .info p {
+    font-size: .77rem;
+    padding: 1rem;
+  }
+
+  .info .title {
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+  }
+
+}
+
 /* Footer */
 
 footer {
@@ -201,4 +239,14 @@ footer img {
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    justify-content: center;
+  }
+
+  footer div {
+    display: none;
+  }
 }
